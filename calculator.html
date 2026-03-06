@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>   
+    <div class="calculator-card">
+        <h2>Basic Calculator</h2>
+
+     <input type="number"  id="num1"  
+     placeholder="Enter First Number">
+
+     <input type="nember" id="num2"
+     placeholder="Enter Second Number">
+    
+
+    <div class="buttons">
+        <button oneclick ="addtodisplay('7')">1</button>
+        <button oneclick="addToDisplay('8')">2</button>
+        <button oneclick="addToDisplay('9')">3</button>
+        <button oneclick="addToDisplay('/')">/</button>
+        
+        
+        <br>
+        
+        <button oneclick="addToDisplay('4')">4</button>
+        <button oneclick="addToDisplay('5')">5</button>
+        <button oneclick="addToDisplay('6')">6</button>
+        <button oneclick="addToDisplay('*')">*</button>
+        <br>
+
+        <button oneclick="addToDisplay('1')">7</button>
+        <button oneclick="addToDisplay('2')">8</button>
+        <button oneclick="addToDisplay('3')">9</button>
+        <button oneclick="addToDisplay('-')">-</button>
+        <br>
+        
+
+        <button oneclick="addToDisplay('0')">0
+            <button oneclick="addToDisplay('C')">C</button>
+            <button oneclick="addToDisplay('+')">+</button>
+        </button>
+
+    </div>
+</div>
+        <div class="modalContent">
+            <p id="resultText"></p>
+            <button id="closeModal">Closed</button>
+        </div>
+    </di>
+</body>
+</html>

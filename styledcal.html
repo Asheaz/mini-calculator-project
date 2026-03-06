@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Calculator</title>
+    <link rel="stylesheet" href="styledcal.css">
+    <script src="styledcal.js"></script>
+</head>
+<body>
+     
+
+    
+<div class="calculator-card">
+        <h2>Mini Calculator</h2>
+
+        <div class="calculator">
+     
+      <input type="text" style="width: 200px; height: 40px;" id="display" disabled>
+      </div>
+      
+    <div class="display-buttons">
+        <button style="width: 45px; height:45px ;" oneclick="addtodisplay('1')">1</button>
+        <button style="width: 45px; height:45px ;" oneclick="addtodisplay('2')">2</button>
+        <button  style="width: 45px; height:45px"oneclick="addtodisplay('3')">3</button>
+        <button style="width: 45px; height:45px" oneclick="addtodisplay('/')">/</button>
+        <br>
+        <button style="width: 45px; height:45px" oneclick="addtodisplay('4')">4</button>
+        <button style="width: 45px; height:45px" oneclick="addtodisplay('5')">5</button>
+        <button style="width: 45px; height:45px"  oneclick="addtodisplay('6')">6</button>
+        <button style="width: 45px; height:45px" oneclick="addtodisplay('-')">-</button>
+        <br>
+
+        <button style="width: 45px; height:45px" oneclick="addtodisplay('7')">7</button>
+        <button style="width: 45px; height:45px" oneclick="addtodisplay('8')">8</button>
+        <button style="width: 45px; height:45px" oneclick="addtodisplay('9')">9</button>
+        <button style="width: 45px; height:45px"  oneclick="addtoplay('*')">*</button>
+        <br>
+        
+        
+        <button style="width: 45px; height:45px"oneclick="addtoplay('0')">0</button>
+        <button  style="width: 45px; height:45px"oneclick="addtoplay('C')">C</button>
+        <button style="width: 45px; height:45px"oneclick="addtoplay('+')">+</button>
+        <br><br>
+
+        <button class="equal" onclick="calculate()">=</button>
+        <br><br>
+    </div>
+
+    
+    <div class="modal" id="resultModal">
+        <div class="modal-content">
+            <p id="resultText"></p>
+            
+        </div>
+        <div class="button-close">
+            <button>Close</button>
+        </div>
+        </div>
+    </div>
+    
+
+
+</div>
+
+
+
+    </body>
+</html>
+

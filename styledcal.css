@@ -1,0 +1,68 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+}
+.calculator-card{
+
+    width: 350px;
+    height: 76vh;
+    background-color: wheat;
+    border-radius: 6px;
+    margin: 10px 0;
+    border:1px solid bisque;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 25rem;
+    margin-top: 6rem;
+    gap: 10px;
+
+
+}
+display-buttons{
+    padding-bottom: 2rem;
+    display:flex;
+    width:200px;
+    height: 45px;
+    font-size: 18px;
+    margin: 3px;
+    transition: 0.3s;
+    gap:10px;
+    padding-bottom: 20px;
+}
+.equal{
+    width:100px;
+    background-color: blue;
+    border-radius: 10px;
+
+}
+.equal:hover{
+    background-color: white;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: beige;
+}
+.calculator input{
+    width:70px;
+    height: 20px;
+    display:flex;
+    align-content: center;
+    margin-bottom: 12px;
+    gap:10px;
+    
+
+}
+
+.modal{
+    background: black;
+    padding:40px ;
+    border-radius: 10px;
+    text-align: center;
+    width: 10px;
+    transform:  scale(o.8);
+    transition: 1.3s ease;
+    margin-right:350px ;
+    margin-top: 50px;
+      }
