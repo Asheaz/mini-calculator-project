@@ -1,9 +1,11 @@
-<script>
+
 
     function calculate(){
 
         const displayScreen = document.getElementById("display")
 
+        let result = eval(document.getElementById("display").value);
+            document.getElementById("display").value = result;
         console.log(displayScreen.value)
         
     }
@@ -22,9 +24,6 @@
         
     }
 
-</script>
 
 
-
-
-
+       

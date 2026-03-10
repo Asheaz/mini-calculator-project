@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Styled Calculator</title>
+    <title>my Styled Calculator</title>
     <link rel="stylesheet" href="styledcal.css">
-    <script src="styledcal.js"></script>
 </head>
 <body>
      
@@ -20,27 +19,30 @@
       </div>
       
     <div class="display-buttons">
-        <button style="width: 45px; height:45px ;" oneclick="addtodisplay('1')">1</button>
-        <button style="width: 45px; height:45px ;" oneclick="addtodisplay('2')">2</button>
-        <button  style="width: 45px; height:45px"oneclick="addtodisplay('3')">3</button>
-        <button style="width: 45px; height:45px" oneclick="addtodisplay('/')">/</button>
+        <button style="width: 45px; height:45px ;" onclick="addtoplay('1')">1</button>
+        <button style="width: 45px; height:45px ;" onclick="addtoplay('2')">2</button>
+        <button  style="width: 45px; height:45px"onclick="addtoplay('3')">3</button>
+        <button style="width: 45px; height:45px" onclick="addtoplay('/')">/</button>
         <br>
-        <button style="width: 45px; height:45px" oneclick="addtodisplay('4')">4</button>
-        <button style="width: 45px; height:45px" oneclick="addtodisplay('5')">5</button>
-        <button style="width: 45px; height:45px"  oneclick="addtodisplay('6')">6</button>
-        <button style="width: 45px; height:45px" oneclick="addtodisplay('-')">-</button>
+        <button style="width: 45px; height:45px" onclick="addtoplay('4')">4</button>
+        <button style="width: 45px; height:45px" onclick="addtoplay('5')">5</button>
+        <button style="width: 45px; height:45px"  onclick="addtoplay('6')">6</button>
+        <button style="width: 45px; height:45px" onclick="addtoplay('-')">-</button>
+        <br>
+        <!-- hello -->
+
+
+        <button style="width: 45px; height:45px" onclick="addtoplay('7')">7</button>
+        <button style="width: 45px; height:45px" onclick="addtoplay('8')">8</button>
+        <button style="width: 45px; height:45px" onclick="addtoplay('9')">9</button>
+        <button style="width: 45px; height:45px"  onclick="addtoplay('*')">*</button>
         <br>
 
-        <button style="width: 45px; height:45px" oneclick="addtodisplay('7')">7</button>
-        <button style="width: 45px; height:45px" oneclick="addtodisplay('8')">8</button>
-        <button style="width: 45px; height:45px" oneclick="addtodisplay('9')">9</button>
-        <button style="width: 45px; height:45px"  oneclick="addtoplay('*')">*</button>
-        <br>
         
         
-        <button style="width: 45px; height:45px"oneclick="addtoplay('0')">0</button>
-        <button  style="width: 45px; height:45px"oneclick="addtoplay('C')">C</button>
-        <button style="width: 45px; height:45px"oneclick="addtoplay('+')">+</button>
+        <button style="width: 45px; height:45px"onclick="addtoplay('0')">0</button>
+        <button  style="width: 45px; height:45px"onclick="clearDisplay('C')">C</button>
+        <button style="width: 45px; height:45px"onclick="addtoplay('+')">+</button>
         <br><br>
 
         <button class="equal" onclick="calculate()">=</button>
@@ -60,11 +62,8 @@
     </div>
     
 
-
 </div>
 
+<script src="styledcal.js"></script>
 
-
-    </body>
-</html>
-
+</body>
